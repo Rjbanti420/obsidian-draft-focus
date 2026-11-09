@@ -1,0 +1,9 @@
+{
+  "id": "draft-focus",
+  "name": "Draft Focus",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Hides the UI for drafting and blocks backspace, delete and undo so you keep writing instead of editing.",
+  "author": "rj",
+  "isDesktopOnly": true
+}

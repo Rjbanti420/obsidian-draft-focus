@@ -1,0 +1,45 @@
+body.draft-focus .workspace-ribbon,
+body.draft-focus .workspace-tab-header-container,
+body.draft-focus .workspace-split.mod-left-split,
+body.draft-focus .workspace-split.mod-right-split,
+body.draft-focus .view-header,
+body.draft-focus .status-bar,
+body.draft-focus .titlebar {
+  display: none !important;
+}
+
+body.draft-focus .markdown-source-view.mod-cm6 .cm-scroller {
+  padding-top: 10vh;
+  scrollbar-width: none;
+}
+
+body.draft-focus .markdown-source-view.mod-cm6 .cm-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.draft-focus-pill {
+  position: fixed;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  color: var(--text-muted);
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  opacity: 0.5;
+  cursor: pointer;
+  user-select: none;
+}
+
+.draft-focus-pill:hover {
+  opacity: 1;
+}
+
+.draft-focus-pill.is-blocked {
+  color: var(--text-on-accent);
+  background: var(--interactive-accent);
+  opacity: 1;
+}
